@@ -140,7 +140,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   horizontalInput: 0
-  speed: 20
+  boundaryLeft: -18
+  boundaryRight: 18
 --- !u!1001 &79066989
 PrefabInstance:
   m_ObjectHideFlags: 0
