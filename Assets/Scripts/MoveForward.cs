@@ -6,6 +6,7 @@ public class MoveForward : MonoBehaviour
 {
     //initialize speed of projectile
     public float speed = 30f;
+    
 
     // Start is called before the first frame update
     void Start()

@@ -6,9 +6,11 @@ public class PlayerController : MonoBehaviour
 {
     //initialize variables
     public float horizontalInput;
-    private float speed = 20f;
+    [SerializeReference] private float speed = 20f;
     public float boundaryLeft = -18f;
     public float boundaryRight = 18f;
+
+    public GameObject projectilePrefab;
 
     // Start is called before the first frame update
     void Start()
