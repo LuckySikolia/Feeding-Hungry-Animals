@@ -29,6 +29,9 @@ public class PlayerController : MonoBehaviour
 
         //code for keeping the player within the field/ grounds
         keepWithinGrounds();
+
+        //code for setting the space bar to launch the projectile
+        launchProjectile();
     }
 
     void keepWithinGrounds()
@@ -43,6 +46,17 @@ public class PlayerController : MonoBehaviour
         if(transform.position.x > boundaryRight)
         {
             transform.position = new Vector3(boundaryRight, transform.position.y, transform.position.z);
+        }
+    }
+
+
+    void launchProjectile()
+    {
+        //code for setting the space bar to launch the projectile
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            //TODO: LAUNCH PROJECTILE FROM THE PLAYER
+            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
         }
     }
 }
