@@ -945,7 +945,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boundaryTop: 24
-  boundaryBottom: -12
+  boundaryBottom: -8
 --- !u!65 &5674211236831936216
 BoxCollider:
   m_ObjectHideFlags: 0
