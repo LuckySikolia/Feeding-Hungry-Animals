@@ -7,8 +7,7 @@ public class SpawnManager : MonoBehaviour
 {
     //initialize the animal prefabs game object as an array
     public GameObject[] animalPrefabs;
-    [SerializeField] private int animalIndex;
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +17,8 @@ public class SpawnManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //initialize animal insex for randomness
+        int animalIndex = Random.Range(0, animalPrefabs.Length);
 
         //method to spawn an animal if s is pressed
         if (Input.GetKeyDown(KeyCode.S))
