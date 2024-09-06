@@ -435,6 +435,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3589410473017187559}
   - component: {fileID: 4972384754613724105}
+  - component: {fileID: 8860340213570960599}
+  - component: {fileID: 8193334858192707908}
   m_Layer: 0
   m_Name: Animal_Doe_02
   m_TagString: Untagged
@@ -488,6 +490,33 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8860340213570960599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6902876284375718477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef990df7fe523ef49941089739bd7837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+--- !u!114 &8193334858192707908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6902876284375718477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb55d9f9dd6b2e0409d664dda223b58f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boundaryTop: 24
+  boundaryBottom: -12
 --- !u!1 &7320721686258349675
 GameObject:
   m_ObjectHideFlags: 0

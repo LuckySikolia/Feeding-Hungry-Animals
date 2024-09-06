@@ -860,6 +860,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8641256527148081267}
   - component: {fileID: 4057372056626374613}
+  - component: {fileID: 2493607677533478810}
+  - component: {fileID: 5705920562135899172}
   m_Layer: 0
   m_Name: Animal_Fox_01
   m_TagString: Untagged
@@ -915,6 +917,33 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2493607677533478810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7902841554021018484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef990df7fe523ef49941089739bd7837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+--- !u!114 &5705920562135899172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7902841554021018484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb55d9f9dd6b2e0409d664dda223b58f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boundaryTop: 24
+  boundaryBottom: -12
 --- !u!1 &8466636841608654232
 GameObject:
   m_ObjectHideFlags: 0
